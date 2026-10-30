@@ -22,6 +22,7 @@ int safeIntRead() {
         //     printf("Nhap so ngu nhu con cho\n");
         //     printf("%d %c\n", output, trash);
         // }
-    } while (sscanf(s, "%d %c", &output, &trash) != 1);
+    } while (sscanf(s, "%d %c", &output, &trash) != 1);  // sscanf tra ve so luong gia tri quet (parse) duoc
+    // Nen neu co gia tri trash, sscanf tra ve 2 ==> vo hieu.
     return output;
 }
