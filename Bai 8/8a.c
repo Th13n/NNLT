@@ -16,6 +16,7 @@ int safeIntRead() {
     do {
         printf("Nhap so nguyen: ");
         fgets(s, 100, stdin);
+        // printf("%d\n", sscanf(s, "%d %c", &output, &trash));
         // if (sscanf(s, "%d %c", &output, &trash) == 1) {
         //     printf("Nhap thanh cong \n");
         // } else {
